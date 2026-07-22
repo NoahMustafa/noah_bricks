@@ -7,6 +7,7 @@ import com.noahbricks.extractors.*
 @CloudstreamPlugin
 class NoahBricksPlugin : BasePlugin() {
     override fun load() {
+        registerMainAPI(NoahBricksProvider())
         registerExtractorAPI(VidLink())
         registerExtractorAPI(VidsrcNet())
         registerExtractorAPI(VidsrcTo())
