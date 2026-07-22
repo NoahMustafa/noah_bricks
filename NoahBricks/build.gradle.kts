@@ -1,5 +1,3 @@
-import com.lagradost.cloudstream3.gradle.CloudstreamExtension
-
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
@@ -7,7 +5,7 @@ plugins {
 
 apply(plugin = "com.lagradost.cloudstream3.gradle")
 
-configure<CloudstreamExtension> {
+cloudstream {
     description = "NoahBricks Extractors"
     status = 1
     tvTypes = listOf("Movie", "TvSeries")
