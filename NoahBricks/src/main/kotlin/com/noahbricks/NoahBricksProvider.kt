@@ -1,6 +1,8 @@
 package com.noahbricks
 
+import com.lagradost.cloudstream3.ProviderType
 import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.metaproviders.TmdbLink
 import com.lagradost.cloudstream3.metaproviders.TmdbProvider
 import com.lagradost.cloudstream3.utils.AppUtils.parseJson
@@ -9,8 +11,13 @@ import com.noahbricks.extractors.*
 
 class NoahBricksProvider : TmdbProvider() {
     override var name = "NoahBricks"
+    override var mainUrl = "https://www.themoviedb.org"
     override val hasMainPage = true
-    override val useMetaLoadResponse = true // This tells TmdbProvider to generate the UI response
+    override val useMetaLoadResponse = true
+
+    // Setting this to DirectProvider allows it to show up on the home screen provider list!
+    override val providerType = ProviderType.DirectProvider
+    override val supportedTypes = setOf(TvType.Movie, TvType.TvSeries)
 
     override suspend fun loadLinks(
         data: String,
@@ -54,7 +61,7 @@ class NoahBricksProvider : TmdbProvider() {
             try {
                 extractor.getUrl(path, null, subtitleCallback, callback)
             } catch (ex: Exception) {
-                // Ignore failure and let the others continue
+                // Ignore failure
             }
         }
         return true
