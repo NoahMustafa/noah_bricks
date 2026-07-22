@@ -9,6 +9,8 @@ apply(plugin = "com.lagradost.cloudstream3.gradle")
 
 configure<CloudstreamExtension> {
     description = "NoahBricks Extractors"
+    status = 1
+    tvTypes = listOf("Movie", "TvSeries")
 }
 
 android {

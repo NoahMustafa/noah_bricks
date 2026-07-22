@@ -2,9 +2,13 @@
     "fileHash": "sha256-5f1a8dd35f6d8dd645a8d2007a61202e7080a02ba9715f9036796eac2228b20c",
     "apiVersion": 1,
     "fileSize": 50968,
-    "status": 3,
+    "status": 1,
     "authors": [
         
+    ],
+    "tvTypes": [
+        "Movie",
+        "TvSeries"
     ],
     "version": -1,
     "internalName": "NoahBricks",
