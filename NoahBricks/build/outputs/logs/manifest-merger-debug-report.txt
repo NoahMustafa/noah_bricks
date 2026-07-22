@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\F\testing you\newthings\noah_bricks\NoahBricks\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8490180312858501065.xml:2:13-83
+INJECTED from E:\F\testing you\newthings\noah_bricks\NoahBricks\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8490180312858501065.xml:2:13-83
+	package
+		INJECTED from E:\F\testing you\newthings\noah_bricks\NoahBricks\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8490180312858501065.xml
+	xmlns:android
+		ADDED from E:\F\testing you\newthings\noah_bricks\NoahBricks\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8490180312858501065.xml:2:23-81
+uses-sdk
+INJECTED from E:\F\testing you\newthings\noah_bricks\NoahBricks\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8490180312858501065.xml reason: use-sdk injection requested
+INJECTED from E:\F\testing you\newthings\noah_bricks\NoahBricks\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8490180312858501065.xml
+INJECTED from E:\F\testing you\newthings\noah_bricks\NoahBricks\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8490180312858501065.xml
+	android:targetSdkVersion
+		INJECTED from E:\F\testing you\newthings\noah_bricks\NoahBricks\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8490180312858501065.xml
+	android:minSdkVersion
+		INJECTED from E:\F\testing you\newthings\noah_bricks\NoahBricks\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest8490180312858501065.xml

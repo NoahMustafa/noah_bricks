@@ -1,0 +1,9 @@
+{
+  "name": "NoahBricks Repo",
+  "description": "Custom Extractors Repository for CloudStream",
+  "manifestVersion": 1,
+  "iconUrl": null,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/NoahMustafa/noah_bricks/main/build/plugins.json"
+  ]
+}
