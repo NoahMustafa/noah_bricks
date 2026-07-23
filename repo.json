@@ -4,6 +4,6 @@
   "manifestVersion": 1,
   "iconUrl": null,
   "pluginLists": [
-    "https://raw.githubusercontent.com/NoahMustafa/noah_bricks/main/build/plugins.json"
+    "https://raw.githubusercontent.com/NoahMustafa/noah_bricks/97fa87b6e666b4cc7c5af65274e37b097b609abb/build/plugins.json"
   ]
 }
