@@ -10,8 +10,10 @@ apply(plugin = "com.lagradost.cloudstream3.gradle")
 configure<CloudstreamExtension> {
     description = "NoahBricks Extractors"
     status = 1
-    version = 1
+    version = 2
     tvTypes = listOf("Movie", "TvSeries")
+    setRepo("https://github.com/NoahMustafa/noah_bricks")
+    buildBranch = "main"
 }
 
 android {
