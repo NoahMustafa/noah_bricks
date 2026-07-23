@@ -1,6 +1,6 @@
 [
     {
-        "fileHash": "sha256-edeaa6a4fd9392f7e8256670d921697e27eda126344d3cd1f53646e6a9500920",
+        "fileHash": "sha256-9da83c5491ba1ae636855a8adb7444a248e49d34e0ad04b320ac2c276539aa74",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/NoahMustafa/noah_bricks",
         "fileSize": 50968,
@@ -12,10 +12,10 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 2,
+        "version": 3,
         "internalName": "NoahBricks",
         "description": "NoahBricks Extractors",
-        "url": "https://raw.githubusercontent.com/NoahMustafa/noah_bricks/90b54425eaef7dba2164d6692865dec4bfda6673/NoahBricks.cs3",
+        "url": "https://raw.githubusercontent.com/NoahMustafa/noah_bricks/main/NoahBricks.cs3",
         "name": "NoahBricks"
     }
 ]

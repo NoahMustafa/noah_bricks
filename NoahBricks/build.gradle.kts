@@ -10,7 +10,7 @@ apply(plugin = "com.lagradost.cloudstream3.gradle")
 configure<CloudstreamExtension> {
     description = "NoahBricks Extractors"
     status = 1
-    version = 2
+    version = 3
     tvTypes = listOf("Movie", "TvSeries")
     setRepo("https://github.com/NoahMustafa/noah_bricks")
     buildBranch = "main"
@@ -36,7 +36,7 @@ android {
 dependencies {
     compileOnly("com.github.recloudstream:cloudstream:-SNAPSHOT")
     compileOnly("com.github.Blatzar:NiceHttp:0.4.18")
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("org.jsoup:jsoup:1.17.2")
-    implementation("org.json:json:20231013")
+    compileOnly("com.squareup.okhttp3:okhttp:4.12.0")
+    compileOnly("org.jsoup:jsoup:1.17.2")
+    compileOnly("org.json:json:20231013")
 }
