@@ -1,6 +1,7 @@
 {
     "fileHash": "sha256-7945f958f5d5b205e5a5ca2cfef2488fb029b450e4f112468eb4af3d75c7e75a",
     "apiVersion": 1,
+    "repositoryUrl": "https://github.com/NoahMustafa/noah_bricks",
     "fileSize": 50967,
     "status": 1,
     "authors": [
@@ -13,6 +14,6 @@
     "version": 1,
     "internalName": "NoahBricks",
     "description": "NoahBricks Extractors",
-    "url": "",
+    "url": "https://raw.githubusercontent.com/NoahMustafa/noah_bricks/main/NoahBricks.cs3",
     "name": "NoahBricks"
 }

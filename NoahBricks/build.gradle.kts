@@ -12,6 +12,8 @@ configure<CloudstreamExtension> {
     status = 1
     version = 1
     tvTypes = listOf("Movie", "TvSeries")
+    setRepo("https://github.com/NoahMustafa/noah_bricks")
+    buildBranch = "main"
 }
 
 android {
